@@ -14,10 +14,10 @@ this is just a study demo
 
 **lesson2** ： config + webconfig 的理解
   
-  1. properties 文件
-  2. 基本类型 + 随机字符串
-  3. 常量
-  4. 扫描范围
+  - properties 文件
+  - 基本类型 + 随机字符串
+  - 常量 系统变量
+  - 扫描范围（参考webconfig 和 newWebConfig）
    
     
 **lesson3** ： 基本的 dao + mysql

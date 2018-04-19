@@ -1,4 +1,4 @@
-package com.workec.wyf.demo.entity;
+package com.workec.wyf.demo.properties;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @date :  2018-04-18 14:04
  **/
 @Component
-public class UserEntity {
+public class UserProperties {
 
     /**
      *  直接常量 : 注解普通字符串
@@ -57,7 +57,7 @@ public class UserEntity {
 
 
 
-    public UserEntity() {
+    public UserProperties() {
     }
 
     public Integer getId() {

@@ -1,4 +1,4 @@
-package com.workec.wyf.demo.entity;
+package com.workec.wyf.demo.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 // 不加这个，不会被注释到bean
 @Component
 @ConfigurationProperties(prefix = "common")
-public class GroupEntity {
+public class GroupProperties {
 
     private int age;
 

@@ -1,7 +1,7 @@
 package com.workec.wyf.demo.controller;
 
-import com.workec.wyf.demo.entity.GroupEntity;
-import com.workec.wyf.demo.entity.UserEntity;
+import com.workec.wyf.demo.properties.GroupProperties;
+import com.workec.wyf.demo.properties.UserProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,10 +19,10 @@ public class HelloWorldController {
 
     // 因为这个太艰难了，失败了好多次
     @Autowired
-    private UserEntity userEntity;
+    private UserProperties userProperties;
 
     @Autowired
-    private GroupEntity groupEntity;
+    private GroupProperties groupProperties;
 
     @RequestMapping("/hello")
     public String hello() {
@@ -31,13 +31,13 @@ public class HelloWorldController {
 
     
     @RequestMapping("world")
-    public UserEntity world() {
-        return userEntity;
+    public UserProperties world() {
+        return userProperties;
         // 每次更新代码，需要重新启动
     }
 
     @GetMapping("/group")
-    public GroupEntity group(){
-        return  groupEntity;
+    public GroupProperties group(){
+        return groupProperties;
     }
 }

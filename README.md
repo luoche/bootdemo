@@ -31,6 +31,11 @@ this is just a study demo
   
 **lesson4** ： 基本的 dao + mysql
 
+1. 基本的crud
+2. overwrite findByName
+3. 自己写sql
+
+
 **lesson5** ： log
 
 **lesson6** : exception

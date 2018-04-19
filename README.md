@@ -19,18 +19,32 @@ this is just a study demo
   - 常量 系统变量
   - 扫描范围（参考webconfig 和 newWebConfig）
    
-    
-**lesson3** ： 基本的 dao + mysql
+**lesson3** ： RequestMapping
 
-**lesson4** ： log
+- parhVariable
 
-**lesson5** : exception
+   /request/path/1/pet/1234
+     
+- RequestParam
 
-**lesson6** ： filter
+  /request/requestParam?ownerId=223
+  
+**lesson4** ： 基本的 dao + mysql
 
-**lesson7** : listener
+**lesson5** ： log
+
+**lesson6** : exception
+
+**lesson7** ： filter
+
+**lesson8** : listener
+
+
 
 以及其他课题：
+1. Interceptor 拦截器
+2. AOP
+
 
 多环境 。。。。
 
